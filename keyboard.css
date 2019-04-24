@@ -7,7 +7,6 @@
   padding: 30px;
   color: #eee;
 }
-
 .flex-container{
   display: flex;
   justify-content: center;
@@ -15,7 +14,7 @@
 }
 
 .key{
-  width: 40px; height:40px;
+  width: 7vw; height:7vw;
   display:block;
   background-color:#333;
   color:white;
@@ -30,22 +29,22 @@
 .key:active{
   background-color:#700;
 }
-.character{width:30px;}
-.backspace{width:60px;}
-.tab{width:70px;}
+.character{width:30vw;}
+.backspace{width:60vw;}
+.tab{width:70vw;}
 .enter{
   background-color:#705;
-  width:80px;}
+  width:80vw;}
 .shift{
   background-color:#705;
-  width:80px;}
+  width:80vw;}
 .accept{
   background-color:#705;
   text-align:center;
-  width:90px}
-.space{width:300px;}
+  width:90vw}
+.space{width:300vw;}
 .cancel{
   background-color:#705;
   text-align:center;
-  width:90px}
+  width:90vw}
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
