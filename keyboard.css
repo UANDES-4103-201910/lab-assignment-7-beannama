@@ -1,3 +1,51 @@
 /* Define your CSS styles here */
-/* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
+.kcontainer{
+  width:800px; height: 320px;
+  background-color: #111;
+  margin: 0px auto;
+  border-radius: 9px;
+  padding: 30px;
+  color: #eee;
+}
 
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.key{
+  width: 40px; height:40px;
+  display:block;
+  background-color:#333;
+  color:white;
+  text-align: left;
+  padding-left: 8px;
+  line-height: 29px;
+  border-radius:2px;
+  float:left; margin-left: 2px;
+  margin-bottom:2px;
+  cursor: pointer;
+}
+.key:active{
+  background-color:#700;
+}
+.character{width:30px;}
+.backspace{width:60px;}
+.tab{width:70px;}
+.enter{
+  background-color:#705;
+  width:80px;}
+.shift{
+  background-color:#705;
+  width:80px;}
+.accept{
+  background-color:#705;
+  text-align:center;
+  width:90px}
+.space{width:300px;}
+.cancel{
+  background-color:#705;
+  text-align:center;
+  width:90px}
+/* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
